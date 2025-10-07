@@ -1,0 +1,12 @@
+temp_fahrenheit = [80, 72, 95, 82, 79, 72, 85]
+temp_celsius = []
+
+for temp_f in temp_fahrenheit:
+  temp_c = (temp_f - 32) * 5/9
+  temp_celsius.append(round(temp_c, 2))
+
+print("Temperatures in Fahrenheit:", temp_fahrenheit)
+print("Temperatures in Celsius:", temp_celsius)
+
+Temperatures in Fahrenheit: [80, 72, 95, 82, 79, 72, 85]
+Temperatures in Celsius: [26.67, 22.22, 35.0, 27.78, 26.11, 22.22, 29.44]
