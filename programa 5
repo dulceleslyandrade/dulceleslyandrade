@@ -1,0 +1,15 @@
+alumno = {
+    'nombre': 'dulce',
+    'matricula': '231690434-7',
+    'edad': 16,
+    'peso': 50,
+    'telefono': '3112722421',
+    'domicilio': 'riberas',
+    'carrera': 'CDIA'
+}
+
+print("Nombre del alumno:", alumno['nombre'])
+
+print("\nDatos completos del alumno:")
+for clave, valor in alumno.items():
+    print(clave + ":", valor)
